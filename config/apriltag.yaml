@@ -19,19 +19,19 @@
 #     {id: ID, size: SIZE, name: NAME},
 #     ...
 #   ]
-# standalone_tags:
-#   [
-#     {id: 1, size: 0.2},
-#     {id: 2, size: 0.2},
-#     {id: 201, size: 0.1},
-#     {id: 202, size: 0.1},
-#     {id: 203, size: 0.1},
-#     {id: 204, size: 0.1},
-#   ]
 standalone_tags:
   [
-    {id: 2, size: 0.16, name: main_tag}
+    {id: 1,   size: 0.16, name: tag_001},
+    {id: 2,   size: 0.16, name: tag_002},
+    {id: 201, size: 0.08, name: tag_201},
+    {id: 202, size: 0.08, name: tag_202},
+    {id: 203, size: 0.08, name: tag_203},
+    {id: 204, size: 0.08, name: tag_204},
   ]
+# standalone_tags:
+#   [
+#     {id: 2, size: 0.16, name: main_tag}
+#   ]
 
 # {id: 2, size: 0.075},
 

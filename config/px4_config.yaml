@@ -20,7 +20,7 @@ sys:
 
 # sys_time
 time:
-  time_ref_source: "fcu"  # time_reference source
+  time_ref_source: "drone"  # time_reference source
   timesync_mode: MAVLINK
   timesync_avg_alpha: 0.6 # timesync averaging factor
 
@@ -45,7 +45,7 @@ cmd:
 
 # global_position
 global_position:
-  frame_id: "fcu"
+  frame_id: "drone"
   # frame_id: "map"             # origin frame
   # child_frame_id: "mavros_link" # body-fixed frame
   rot_covariance: 99999.0   # covariance for attitude?
@@ -61,7 +61,7 @@ global_position:
 
 # imu_pub
 imu:
-  frame_id: "fcu"
+  frame_id: "drone"
   # frame_id: "mavros_link"
   # need find actual values
   linear_acceleration_stdev: 0.0003
@@ -76,7 +76,7 @@ local_position:
   tf:
     send: true
     frame_id: "drone_origin"
-    child_frame_id: "fcu"
+    child_frame_id: "drone"
     # frame_id: "map"
     # child_frame_id: "mavros_link"
     send_fcu: false
