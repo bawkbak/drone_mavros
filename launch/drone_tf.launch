@@ -2,7 +2,7 @@
     <!-- x y z yaw pitch roll -->
 
     <!-- <node pkg="tf" type="static_transform_publisher" name="tf_fake_drone"
-        args="0 0 1 0 0 0 map drone 10"/> -->
+        args="0 0 2 0 0 0 map drone 10"/>  -->
 
     <!-- drone setup -->
 
@@ -14,13 +14,13 @@
 
     <!-- tag setup -->
 
-    <node pkg="tf" type="static_transform_publisher" name="tf_tag_201" args=" 0.15 -0.15 0 1.57 0 0 tag_201 tag_center 10"/>
-    <node pkg="tf" type="static_transform_publisher" name="tf_tag_202" args=" 0.05 -0.05 0 1.57 0 0 tag_202 tag_center 10"/>
-    <node pkg="tf" type="static_transform_publisher" name="tf_tag_203" args="-0.05  0.15 0 1.57 0 0 tag_203 tag_center  10"/>
-    <node pkg="tf" type="static_transform_publisher" name="tf_tag_204" args="-0.15  0.05 0 1.57 0 0 tag_204 tag_center  10"/>
-    <node pkg="tf" type="static_transform_publisher" name="tf_tag_001" args=" 0.1   0.1  0 1.57 0 0 tag_001 tag_center  10"/>
-    <node pkg="tf" type="static_transform_publisher" name="tf_tag_002" args="-0.1  -0.1  0 1.57 0 0 tag_002 tag_center  10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_tag_201" args=" 0.375 -0.375 0 1.57 0 0 tag_201 tag_center 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_tag_202" args=" 0.125 -0.125 0 1.57 0 0 tag_202 tag_center 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_tag_203" args="-0.125  0.125 0 1.57 0 0 tag_203 tag_center 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_tag_204" args="-0.375  0.375 0 1.57 0 0 tag_204 tag_center 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_tag_001" args=" 0.25   0.25  0 1.57 0 0 tag_001 tag_center 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_tag_002" args="-0.25  -0.25  0 1.57 0 0 tag_002 tag_center 10"/>
     
-    <node pkg="tf" type="static_transform_publisher" name="tf_landing" args=" 1     0    0 0 0 0 tag_center landing 10"/>
+    <node pkg="tf" type="static_transform_publisher" name="tf_landing" args=" 0     0    0 0 0 0 tag_center landing 10"/>
 
 </launch>
