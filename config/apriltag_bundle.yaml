@@ -1,0 +1,31 @@
+# # Definitions of tags to detect
+#
+# standalone_tags:
+#   [
+#     {id: 1,   size: 0.16, name: tag_001},
+#     {id: 2,   size: 0.16, name: tag_002},
+#     {id: 201, size: 0.08, name: tag_201},
+#     {id: 202, size: 0.08, name: tag_202},
+#     {id: 203, size: 0.08, name: tag_203},
+#     {id: 204, size: 0.08, name: tag_204},
+#   ]
+
+
+
+tag_bundles:
+  [
+    {
+      name: "tag_non_rotate_center",
+      layout:
+      [
+        {id: 1,   size: 0.16, x: -0.1,  y: -0.1,  z: 0, qw: 1, qx: 0, qy: 0, qz: 0},
+        {id: 2,   size: 0.16, x:  0.1,  y:  0.1,  z: 0, qw: 1, qx: 0, qy: 0, qz: 0},
+        {id: 201, size: 0.08, x: -0.15, y:  0.15, z: 0, qw: 1, qx: 0, qy: 0, qz: 0},
+        {id: 202, size: 0.08, x: -0.05, y:  0.05, z: 0, qw: 1, qx: 0, qy: 0, qz: 0},
+        {id: 203, size: 0.08, x:  0.05, y: -0.15, z: 0, qw: 1, qx: 0, qy: 0, qz: 0},
+        {id: 204, size: 0.08, x:  0.15, y: -0.05, z: 0, qw: 1, qx: 0, qy: 0, qz: 0},
+      ]
+    }
+  ]
+
+
